@@ -2,7 +2,7 @@
 
 ![Sample Analysis](sample.png)
 
-This repository contains code and data for analyzing and pricing binary options on the SP500 closing price Kalshi.
+This repository contains code and data for analyzing and pricing binary options on the S&P 500 closing price using Kalshi's prediction market. I developed a model capable of predicting option pricing with an R-squared value consistently above 0.8.
 
 ## Research Summary
 
@@ -25,25 +25,7 @@ The research utilizes three primary data sources:
 - Kalshi trade history
 - Interest rate data from FRED
 
-## Directory Structure
-
-```
-.
-├── data/                     # Data directory containing CSV files
-│   ├── sp500.csv             # S&P 500 historical data
-│   ├── r.csv                 # Risk-free rate data
-│   └── kalshi_trades.csv     # Historical Kalshi trading data
-│
-├── kalshi.ipynb              # Main analysis notebook for Kalshi data
-├── exploration.ipynb         # Initial data exploration notebook
-├── sp500.ipynb              # S&P 500 analysis notebook
-│
-├── KalshiClientsBaseV2ApiKey.py  # Kalshi API client implementation
-├── LICENSE                   # Project license file
-└── .gitignore               # Git ignore rules
-```
-
-## File Descriptions
+## File Structure
 
 - **Notebooks**:
   - `kalshi.ipynb`: Analysis of Kalshi data
@@ -51,12 +33,16 @@ The research utilizes three primary data sources:
   - `exploration.ipynb`: Data exploration and analysis of the relationship between Kalshi Option Prices and the S&P500 underlying  
 
 - **Data Files**:
-  - `sp500.csv`: Historical S&P 500 price data
-  - `r.csv`: Risk-free rate data for pricing calculations
-  - `kalshi_trades.csv`: Historical trading data from Kalshi platform
+  - `data/sp500.csv`: Historical S&P 500 price data
+  - `data/r.csv`: Risk-free rate data for pricing calculations
+  - `data/kalshi_trades.csv`: Historical trading data from Kalshi platform
 
 - **API Client**:
   - `KalshiClientsBaseV2ApiKey.py`: Implementation of the Kalshi API client for data retrieval
+
+- **Report**:
+  - `Binary_Option_Pricing.pdf`: A 4-page report summarizing the research findings, methodology, and key insights from the analysis.
+
 
 ## Getting Started
 
