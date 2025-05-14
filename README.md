@@ -3,7 +3,7 @@
 
 ![Sample Analysis](sample.png)
 
-This repository contains code and data for analyzing and pricing binary options on the S&P 500 closing price using Kalshi's prediction market. I developed a model capable of predicting option pricing with an R-squared value consistently above 0.8.
+This repository contains code and data for analyzing and pricing binary options on the S&P 500 closing price using Kalshi's prediction market. I developed a Black–Scholes inspired model capable of predicting option pricing with an R-squared value consistently above 0.8.
 
 ## Research Summary
 
