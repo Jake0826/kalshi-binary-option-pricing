@@ -4,6 +4,27 @@
 
 This repository contains code and data for analyzing and pricing binary options on the SP500 closing price Kalshi.
 
+## Research Summary
+
+This project examines the pricing dynamics of binary options on Kalshi's prediction market platform, focusing on S&P 500 year-end closing value contracts. The research investigates:
+
+1. The relationship between theoretical models and actual market prices
+2. How effectively adapted Black-Scholes models predict binary option prices
+3. Potential trading opportunities from identified mispricings
+
+The analysis focuses on two types of contracts:
+- "Above" contracts (e.g., "Will the S&P 500 be above 5799.99 at the end of Dec 31, 2024?")
+- "Between" contracts (e.g., "Will the S&P 500 be between 4500 and 4699.99 at the end of Dec 29, 2023?")
+
+Key findings:
+- The adapted Black-Scholes model shows strong predictive power for "above" contracts (R > 0.9) 
+- Strong autocorrelation patterns suggesting predictable price movements
+
+The research utilizes three primary data sources:
+- S&P 500 closing prices from NASDAQ
+- Kalshi trade history
+- Interest rate data from FRED
+
 ## Directory Structure
 
 ```
@@ -40,5 +61,5 @@ This repository contains code and data for analyzing and pricing binary options 
 ## Getting Started
 
 1. Ensure you have Python installed with Jupyter notebook support
-2. Place your Kalshi API key in the appropriate location
+2. Input your Kalshi API key in `kalshi.ipynb`
 3. Open the notebooks in Jupyter to begin analysis
