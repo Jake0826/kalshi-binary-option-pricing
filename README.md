@@ -1,4 +1,5 @@
 # Kalshi Binary Option Pricing
+## Statistics for Financial Engineering Final Project
 
 ![Sample Analysis](sample.png)
 
