@@ -35,7 +35,7 @@ The research utilizes three primary data sources:
   - `data/kalshi_trades.csv`: Historical trading data from Kalshi platform
 
 - **API Client**:
-  - `KalshiClientsBaseV2ApiKey.py`: Implementation of the Kalshi API client for data retrieval
+  - `KalshiClientsBaseV2ApiKey.py`: Implementation of the Kalshi API client for data retrieval (provided by Kalshi docs)
 
 - **Report**:
   - `Binary_Option_Pricing.pdf`: A 4-page report summarizing the research findings, methodology, and key insights from the analysis.
