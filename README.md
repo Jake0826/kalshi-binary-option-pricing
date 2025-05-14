@@ -17,10 +17,6 @@ The analysis focuses on two types of contracts:
 - "Above" contracts (e.g., "Will the S&P 500 be above 5799.99 at the end of Dec 31, 2024?")
 - "Between" contracts (e.g., "Will the S&P 500 be between 4500 and 4699.99 at the end of Dec 29, 2023?")
 
-Key findings:
-- The adapted Black-Scholes model shows strong predictive power for "above" contracts (R > 0.9) 
-- Strong autocorrelation patterns suggesting predictable price movements
-
 The research utilizes three primary data sources:
 - S&P 500 closing prices from NASDAQ
 - Kalshi trade history
